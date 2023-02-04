@@ -1,0 +1,147 @@
+/* *{
+    margin: 0;
+} */
+
+#navBar {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.container {
+    margin: 0;
+}
+
+.invisiButtons {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border-width: 0px;
+}
+
+#enrollButton {
+    padding: 0.5rem;
+    border-radius: 10rem;
+    background-color: aqua;
+    width: 7rem;
+    border-width: 0px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centerAlign {
+    align-items: center;
+}
+
+#welcomeSplit {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#welcomeAmenities {
+    width: 50%;
+}
+
+#welcomePoster {
+    width: 50%;
+    align-items: center;
+}
+
+#vollyBall {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+
+#vollyballBackground {
+    background-color: #01FAE8;
+    height: 3rem;
+    width: 3.2rem;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#leafBackground {
+    background-color: #EFEF00;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#videoBackground {
+    background-color: #4C81FC;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#kidImage {
+    width: 100%;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.descriptionBox {
+    width: 70%;
+    margin: auto;
+}
+
+.bottom-div {
+    display: flex;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card {
+    border: 1px solid black;
+    width: 20%;
+    margin: 20px;
+    /* padding: 10px; */
+    border-radius: 20px;
+}
+
+.cardWrapper {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-evenly;
+}
+
+.teacherCard {
+    width: 10%;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+
+
+
+.card-image-v {
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+    /* background: url("https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: cover;
+}
+
+.cardContent {
+    padding: 10px;
+}
