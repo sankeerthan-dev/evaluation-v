@@ -1,11 +1,14 @@
-/* *{
-    margin: 0;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
 
 #navBar {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    box-shadow: 0 3px rgb(86, 84, 84);
 }
 
 .container {
@@ -44,13 +47,13 @@
 
 #welcomeSplit {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
-    border: 1px solid black;
 }
 
 #welcomeAmenities {
-    width: 50%;
+    width: 25%;
+    align-items: center;
 }
 
 #welcomePoster {
@@ -61,38 +64,41 @@
 #vollyBall {
     color: #fff;
     text-align: center;
-    font-size: 24px;
-    margin-top: 0.7rem;
-    margin-left: 0.5rem;
+    font-size: 150%;
 }
 
 
 #vollyballBackground {
     background-color: #01FAE8;
-    height: 3rem;
-    width: 3.2rem;
+    height: 11%;
+    padding: 1%;
+    margin: 1.5%;
     align-items: center;
     border-radius: 50%;
 }
 
 #leafBackground {
     background-color: #EFEF00;
-    height: 45px;
-    width: 45px;
+    height: 11%;
+    padding: 1%;
+    margin: 1.5%;
     align-items: center;
     border-radius: 50%;
 }
 
 #videoBackground {
     background-color: #4C81FC;
-    height: 45px;
-    width: 45px;
+    height: 11%;
+    padding: 1%;
+    margin: 1.5%;
     align-items: center;
     border-radius: 50%;
 }
 
 #kidImage {
-    width: 100%;
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 .textAlignCenter {
@@ -117,19 +123,17 @@
     border: 1px solid black;
     width: 20%;
     margin: 20px;
-    /* padding: 10px; */
     border-radius: 20px;
+    background-color: #fff;
 }
 
 .cardWrapper {
     display: flex;
-    border: 1px solid red;
     justify-content: space-evenly;
 }
 
 .teacherCard {
     width: 10%;
-    border: 1px solid green;
     border-radius: 20px;
 }
 
@@ -138,10 +142,74 @@
 .card-image-v {
     height: 50%;
     border-radius: 20px 20px 0 0;
-    /* background: url("https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
     background-size: cover;
 }
 
 .cardContent {
     padding: 10px;
+}
+
+#FoorterSection {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0160a8;
+    color: #fff;
+}
+
+#kindergarden-footer-div {
+    width: 30%;
+}
+
+#offerSection {
+    background-color: rgb(253, 234, 237);
+}
+
+.bottom-div-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#blu {
+    color: #047BD5;
+}
+
+
+#pnk {
+    color: rgb(250, 135, 154);
+}
+
+#ylo {
+    color: #ebeb35;
+}
+
+#tea {
+    color: #01FAE8;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.flex-column-anchor {
+    display: flex;
+    flex-direction: column;
+}
+
+.margin {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 310px) {
+    .cardWrapper {
+        flex-wrap: wrap;
+    }
+
+    #navBar {
+        display: none;
+    }
 }
